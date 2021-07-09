@@ -10,9 +10,6 @@ We innovate to radically transform public services for the better.
 
 <!-- ### Our software engineers are members of a community
 
-
-
-
 We currently have over forty experienced developers who make up the broader engineering community, they coach and mentoring their colleagues and take part in informal support networks with their peers. 
 
 - Take a look at our developer blog and read about one of our developers talking about her experiences joining during lockdown.
@@ -23,39 +20,30 @@ We currently have over forty experienced developers who make up the broader engi
 
 ### We use:
 
-- The MoJ Cloud platform (built on AWS) is our strategic hosting provider
+- The [MoJ Cloud platform](https://user-guide.cloud-platform.service.justice.gov.uk/#cloud-platform-user-guide) (built on AWS) is our strategic hosting provider
+- Kubernetes and Docker to schedule and run our services
 - We use Github to store and manage our code
-- We use CircleCI to build our software and use a CircleCI orb to standardise our approach
-- We use HMPPS Auth as our strategic Authentication solution 
+- We use CircleCI to build our software and use a [CircleCI Orb](https://github.com/ministryofjustice/hmpps-circleci-orb) to standardise our approach
+- We use [HMPPS Auth](https://github.com/ministryofjustice/hmpps-auth) as our strategic Authentication solution 
 - We use Azure Application Insights for our Application and performance monitoring and logging
 - Sentry/Prometheus for application monitoring
 - Elastic/Kibana for Data visualization 
 - We build our back-end services in kotlin
-- We build our front-end server side applications in Typescript using the GOV.UK Design System
+- We build our front-end server side applications in Typescript using the [GOV.UK Design System](https://design-system.service.gov.uk)
 - We have adopted a range of best practices and standards
 - You can find more details on our tech stack from our Tech Menu 
-- We have a bootstrapping tool for creating new projects
+- We have a [bootstrapping tool](https://github.com/ministryofjustice/dps-project-bootstrap) for creating new projects
 - Macs to do all of the above
-
 
 ### Our architecture
 
 - We favour distributed software architecture when building applications
 - We use ‘right size’ services when designing our products and services.
 
-### Here are the template projects we have 
+### We use template projects to help set standards and enable teams to delivery value to user at pace
 
-| Link | Description |
-|-|-|
-| ministryofjustice/hmpps-template-typescript | Template GitHub repo used for new Typescript based projects.|
-| ministryofjustice/hmpps-template-kotlin | Template GitHub repo used for new Kotlin based projects.| 
-
-
-
-
-
-- Kubernetes and Docker to schedule and run our services (read about our Cloud Platform)
-- AWS for most of our infrastructure
+- [Template GitHub repo used for new Typescript based projects.](https://github.com/ministryofjustice/hmpps-template-typescript) 
+- [Template GitHub repo used for new Kotlin based projects](https://github.com/ministryofjustice/hmpps-template-kotlin)
 
 
 ## Who are HMPPS Digital? 
@@ -64,13 +52,12 @@ Her Majesty’s Prison & Probation Service (HMPPS) is rapidly transforming and H
 
 HMPPS Digital has a diverse portfolio of products and services to suit a wide range of developer skills. We have a mature, in-house software development team, building services with both public and professional user interfaces, built on top of our APIs and Cloud Platform. The product team you are placed on will be agreed closer to your start date but examples of products include:
 
-- Use of Force - A service to allow recording of Use of Force incidents.
-https://github.com/ministryofjustice/use-of-force
-- Prisoner API - An API for our prison custodial management service https://github.com/ministryofjustice/prison-api
-- Whereabouts API -  An API to manage the location of prisoners https://github.com/ministryofjustice/whereabouts-api/
-- Community API - An API for accessing and updating probation data https://github.com/ministryofjustice/community-api
-- Probation Offender Search - Probation offender search via Elastic Search https://github.com/ministryofjustice/probation-offender-search
+- [Use of Force](https://github.com/ministryofjustice/use-of-force) - A service to allow recording of Use of Force incidents.
 
+- [Prisoner API](https://github.com/ministryofjustice/prison-api) - An API for our prison custodial management service 
+- [Whereabouts API](https://github.com/ministryofjustice/whereabouts-api/) -  An API to manage the location of prisoners 
+- [Community API](https://github.com/ministryofjustice/community-api) - An API for accessing and updating probation data 
+- [Probation Offender Search](https://github.com/ministryofjustice/probation-offender-search) - Probation offender search via Elastic Search 
 
 ## About MoJ Digital and Technology
 
