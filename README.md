@@ -21,7 +21,7 @@ We currently have over forty experienced developers who make up the broader engi
 ### We use:
 
 - The [MoJ Cloud platform](https://user-guide.cloud-platform.service.justice.gov.uk/#cloud-platform-user-guide) (built on AWS) is our strategic hosting provider
-- Kubernetes and Docker to schedule and run our services
+- We use Kubernetes and Docker to schedule and run our services
 - We use Github to store and manage our code
 - We use CircleCI to build our software and use a [CircleCI Orb](https://github.com/ministryofjustice/hmpps-circleci-orb) to standardise our approach
 - We use [HMPPS Auth](https://github.com/ministryofjustice/hmpps-auth) as our strategic Authentication solution 
@@ -40,7 +40,7 @@ We currently have over forty experienced developers who make up the broader engi
 - We favour distributed software architecture when building applications
 - We use ‘right size’ services when designing our products and services.
 
-### We use template projects to help set standards and enable teams to delivery value to user at pace
+### We use template projects to help set standards and enable teams to delivery value to users at pace
 
 - [Template GitHub repo used for new Typescript based projects.](https://github.com/ministryofjustice/hmpps-template-typescript) 
 - [Template GitHub repo used for new Kotlin based projects](https://github.com/ministryofjustice/hmpps-template-kotlin)
