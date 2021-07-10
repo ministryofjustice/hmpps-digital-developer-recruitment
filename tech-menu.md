@@ -11,20 +11,20 @@ Our strategic language and framework for building back-end services are Kotlin a
 
 ### Kotlin (Strategic choice for new services) 
 
-- Kotlin
-- Spring boot
+- [Kotlin](https://kotlinlang.org)
+- [Spring Boot](https://spring.io/projects/spring-boot)
  
 ### Testing
 
-- junit jupiter
-- assertj 
-- 
+- [junit jupiter](https://junit.org/junit5/) 
+- [assertj](https://joel-costigliola.github.io/assertj/) 
+
 ### Linting
 
-- Ktlint
+- [Ktlint](https://github.com/pinterest/ktlint)
   
 ### Java 
 *Our previous primary choice for building backend services, we still support a number of services built in Java*
-- Java
-- The Java Persistence API (JPA)
-- Spring boot
+- [Java](https://www.java.com/en/)
+- [The Java Persistence API (JPA)](https://docs.oracle.com/javaee/6/tutorial/doc/bnbpz.html)
+- [Spring Boot](https://spring.io/projects/spring-boot)
