@@ -16,8 +16,8 @@ Our strategic language and framework for building back-end services are Kotlin a
  
 ### Testing
 
-- [junit jupiter](https://junit.org/junit5/) 
-- [assertj](https://joel-costigliola.github.io/assertj/) 
+- [jUnit Jupiter](https://junit.org/junit5/) 
+- [Assertj](https://joel-costigliola.github.io/assertj/) 
 
 ### Linting
 
