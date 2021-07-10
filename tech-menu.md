@@ -9,27 +9,22 @@ We support a variety of technologies in HMPPS digital such as Java, Node, Ruby, 
 ## Back-end services
 Our strategic language and framework for building back-end services are Kotlin and Spring Boot, we still support a number of backend services using Java and Spring boot.
 
-### Kotlin (New services) 
+### Kotlin (Strategic choice for new services) 
 
-| Name |  Rational | 
-|-|-|
-| Kotlin | New on our tech menu, it’s trending language that has appeared on multiple industry tech radars, Java developers are comfortable using it. | 
-| Spring boot | An application framework for Java and Kotlin | 
+- Kotlin
+- Spring boot
  
 ### Testing
-| Name |  Rational | 
-|-|-|
-| junit jupiter | |
-assertj | |
- 
+
+- junit jupiter
+- assertj 
+- 
 ### Linting
-| Name |  Rational | 
-|-|-|
-| Ktlint | |
+
+- Ktlint
   
-### Java
-| Name |  Rational | 
-|-|-|
-| Java | Primarily used for backend services |
-| The Java Persistence API (JPA) | |
-| Spring boot | An application framework for Java |
+### Java 
+*Our previous primary choice for building backend services, we still support a number of services built in Java*
+- Java
+- The Java Persistence API (JPA)
+- Spring boot
