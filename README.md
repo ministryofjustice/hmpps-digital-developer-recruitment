@@ -35,6 +35,7 @@ We currently have over forty experienced developers who make up the broader engi
 - We have a [bootstrapping tool](https://github.com/ministryofjustice/dps-project-bootstrap) for creating new projects
 - Macs to do all of the above
 
+*Learn more about our [tech stack](tech-menu.md)*
 ### Our architecture
 
 - We favour distributed software architecture when building applications
