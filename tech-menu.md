@@ -54,3 +54,41 @@ Linting
 - [ESLint](https://eslint.org)
 - [Standard JS](https://standardjs.com)
 - [Prettier](https://prettier.io)
+
+Application build tooling
+
+- [Webpack](https://webpack.js.org)
+
+## Tooling
+
+Code Management 
+
+- [Git](https://git-scm.com)
+- [Github](https://github.com)
+
+## Observability 
+
+Monitoring 
+
+- [Application insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+- [Prometheus](https://prometheus.io)
+- [Sentry](https://sentry.io/)
+
+Data visualization
+
+- [Elastic/Kibana](https://www.elastic.co/kibana/)
+- [Grafana](https://grafana.com)
+
+Alerting
+
+- [Pingdom](https://www.pingdom.com)
+- [Pagerduty](https://www.pagerduty.com)
+
+## Deploying 
+
+Containers & Orchestration 
+
+- [Docker](https://www.docker.com)
+- [Kubernetes](https://kubernetes.io)
+- [Helm](https://helm.sh)
+- [Quay](https://quay.io)
