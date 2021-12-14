@@ -20,41 +20,40 @@ We currently have over forty experienced developers who make up the broader engi
 
 ### We use:
 
+- Kotlin for our back-end services
+- Typescript using the [GOV.UK Design System](https://design-system.service.gov.uk) for our front-end server-side applications
+- Kubernetes and Docker to schedule and run our services
 - The [MoJ Cloud platform](https://user-guide.cloud-platform.service.justice.gov.uk/#cloud-platform-user-guide) (built on AWS) is our strategic hosting provider
-- We use Kubernetes and Docker to schedule and run our services
-- We use Github to store and manage our code
-- We use CircleCI to build our software and use a [CircleCI Orb](https://github.com/ministryofjustice/hmpps-circleci-orb) to standardise our approach
-- We use [HMPPS Auth](https://github.com/ministryofjustice/hmpps-auth) as our strategic Authentication solution 
-- We use Azure Application Insights for our Application and performance monitoring and logging
+- [GitHub](https://github.com/ministryofjustice?q=hmpps) to store and manage our code
+- CircleCI to build our software
+- [HMPPS Auth](https://github.com/ministryofjustice/hmpps-auth) as our strategic Authentication solution 
+- Azure Application Insights for our Application and performance monitoring and logging
 - Sentry/Prometheus for application monitoring
-- Elastic/Kibana for Data visualization 
-- We build our back-end services in kotlin
-- We build our front-end server-side applications in Typescript using the [GOV.UK Design System](https://design-system.service.gov.uk)
-- We have adopted a range of best practices and standards
-- You can find more details on our tech stack from our Tech Menu 
-- We have a [bootstrapping tool](https://github.com/ministryofjustice/dps-project-bootstrap) for creating new projects
+- Elastic/Kibana for Data visualization
 - Macs to do all of the above
 
 *Learn more about our [tech stack](tech-menu.md)*
+
 ### Our architecture
 
 - We favour distributed software architecture when building applications
-- We use ‘right size’ services when designing our products and services.
+- We use ‘right size’ services when designing our products and services
 
-### We use template projects to help set standards and enable teams to deliver value to users at a pace
+### Our standards
 
-- [Template GitHub repo used for new Typescript based projects.](https://github.com/ministryofjustice/hmpps-template-typescript) 
-- [Template GitHub repo used for new Kotlin based projects](https://github.com/ministryofjustice/hmpps-template-kotlin)
+We maintain a number of tools to help set standards and enable teams to deliver value to users at pace, and are always looking for new ways to reduce sprint zero. Examples include:
 
-
+- [Bootstrapping tool](https://github.com/ministryofjustice/dps-project-bootstrap) for creating new projects
+- Template [Kotlin](https://github.com/ministryofjustice/hmpps-template-kotlin) and [Typescript](https://github.com/ministryofjustice/hmpps-template-typescript) GitHub repos for new services
+- [CircleCI Orb](https://github.com/ministryofjustice/hmpps-circleci-orb) to standardise our approach including security jobs
+    
 ## Who are HMPPS Digital? 
 
 Her Majesty’s Prison & Probation Service (HMPPS) is rapidly transforming and HMPPS Digital’s mission is to help rehabilitate and reduce reoffending by building world-class services that put the user first, overhauling the legacy technology that underpins our systems and making better use of data to improve our services. 
 
 HMPPS Digital has a diverse portfolio of products and services to suit a wide range of developer skills. We have a mature, in-house software development team, building services with both public and professional user interfaces, built on top of our APIs and Cloud Platform, examples of products include:
 
-- [Use of Force](https://github.com/ministryofjustice/use-of-force) - A service to allow recording of Use of Force incidents.
-
+- [Use of Force](https://github.com/ministryofjustice/use-of-force) - A service to allow recording of Use of Force incidents
 - [Prisoner API](https://github.com/ministryofjustice/prison-api) - An API for our prison custodial management service 
 - [Whereabouts API](https://github.com/ministryofjustice/whereabouts-api/) - An API to manage the location of prisoners 
 - [Community API](https://github.com/ministryofjustice/community-api) - An API for accessing and updating probation data 
@@ -65,4 +64,3 @@ HMPPS Digital has a diverse portfolio of products and services to suit a wide ra
 MOJ Digital and Technology have a clear vision - to develop a digitally-enabled justice system that works more simply for users.
 
 We’re making things better by building adaptable, effective services and making systems that are simple to use for staff and citizens. It can be challenging but it’s also important and rewarding.
-

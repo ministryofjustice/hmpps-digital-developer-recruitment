@@ -64,7 +64,7 @@ Application build tooling
 Code Management 
 
 - [Git](https://git-scm.com)
-- [Github](https://github.com)
+- [GitHub](https://github.com)
 
 ## Observability 
 
